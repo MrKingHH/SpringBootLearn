@@ -1,0 +1,13 @@
+fdfs:
+  #连接超时时间
+  connect-timeout: 600
+  #读取时间
+  so-timeout: 600
+file:
+  upload:
+    path: D:\files
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
